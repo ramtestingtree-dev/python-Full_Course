@@ -11,3 +11,5 @@ for lang in ("python", "C++", "java"):
     print(f"{lang} = {counts[lang]}")
 
 print(f"{' '.join(word[::-1] for word in words)}")
+
+print('hello')
