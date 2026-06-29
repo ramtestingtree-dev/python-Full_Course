@@ -2,7 +2,9 @@ from collections import Counter
 
 paragraph = "This is the python, C++, java is the most comfortable language in order on python, it is the best and C++ is the most used and java is the most.....it is very good for python and it not good on C++ by its way is very good in the python and java and it is C++"
 
+# print(paragraph[::-1] for word in paragraph)
 words = paragraph.replace(",", "").replace(".", "").split()
+
 
 counts = Counter(words)
 print(counts)
